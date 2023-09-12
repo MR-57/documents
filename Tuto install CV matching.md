@@ -14,8 +14,8 @@
 		- Sélectionner la variable "Path" et aller sur le bouton "Modifier".
 Avec le bouton "Nouveau", ajouter le chemin vers votre exécutable Python et celui vers vos scripts. Par défaut, ceux-ci ressemblent respectivement à C:\\Users\\nom_dutilisateur\\AppData\\Local\\Programs\\Python\\Python310 et C:\\Users\\nom_dutilisateur\\AppData\\Local\\Programs\\Python\\Python310\\Scripts
 Voici à quoi devrait ressembler le résultat (les deux lignes que vous venez de rajouter doivent être en haut, sinon utilisez le bouton "Déplacer vers le haut") :
+![Image : Ce à quoi la fenêtre de variable PATH doit ressembler](https://i.goopics.net/y0pcrs.png =350x)
 
-				![Image : Ce à quoi la fenêtre de variable PATH doit ressembler](https://i.goopics.net/y0pcrs.png =300x)
 	- Installer Poetry : Dans Git bash, lancer la commande `pip install poetry`
 	- Installer un éditeur : Si vous n'en avez pas, installez un IDE comme PyCharm ou VScode, ou un éditeur de texte comme Vim (inclus dans Git Bash)
 		- https://www.jetbrains.com/pycharm/download/?section=windows
