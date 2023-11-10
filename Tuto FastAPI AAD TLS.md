@@ -23,9 +23,12 @@ I - **Implémenter et utiliser l'authentification avec fastapi-azure-auth**
 2.  **Configuration sur FastAPI** [2]
 
 3.  **Utilisation**
+
 pas possible de l'utiliser sur azure parce que blabla, il faut https
+
 ---
 II - **Implémenter le protocole TLS afin d'obtenir une adresse HTTPS**
+
 bla
 
 ---
