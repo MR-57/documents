@@ -3,16 +3,19 @@
 
 Nous verrons, dans un premier temps, comment mettre en place l'authentification Azure en local avec FastAPI. Dans un second temps, nous verrons comment implémenter le protocole TLS afin de pouvoir utiliser notre authentification dans le contexte d'une instance de conteneur Azure.
 
-Les points de terminaison résultants ne pourront être utilisés que par un utilisateur authentifié et appartenant au locataire de l'API.
+Les points de terminaison résultants ne pourront être utilisés que par un utilisateur authentifié et appartenant au locataire de l'API. Pour d'autres cas d'usages, se référer à la documentation fournie dans la section **Bibliographie**.
 
-Prérequis:
-* a
-* b
-* c
+	Prérequis:
+	* a
+	* b
+	* c
 ---
 I - **Implémenter et utiliser l'authentification avec fastapi-azure-auth**
 
-  
+	Prérequis:
+	* a
+	* b
+	* c
 
 1.  **Configuration sur Azure** [1]
 
@@ -28,6 +31,11 @@ pas possible de l'utiliser sur azure parce que blabla, il faut https
 
 ---
 II - **Implémenter le protocole TLS afin d'obtenir une adresse HTTPS**
+
+Prérequis:
+* a
+* b
+* c
 
 bla
 
