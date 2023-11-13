@@ -13,14 +13,21 @@ Les points de terminaison résultants ne pourront être utilisés que par un uti
 I - **Implémenter et utiliser l'authentification avec fastapi-azure-auth**
 
 	Prérequis:
-	* a
-	* b
-	* c
+	* Python
+	* Paquet fastapi-azure-auth
 
 1.  **Configuration sur Azure** [1]
 
 	1.1. **Côté Backend**
 	
+	**Inscrire l'application :** Head over to  [Azure -> Azure Active Directory -> App registrations](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps), and create a new registration.
+
+Select a fitting name for your project; Azure will present the name to the user during consent.
+
+-   `Supported account types`:  `Single tenant`  - If you want to create a multi-tenant application, you should head over to the  [multi-tenant documentation](https://intility.github.io/fastapi-azure-auth/multi-tenant/azure_setup)
+-   `Redirect URI`: Choose  `Web`  and  `http://localhost:8000`  as a value
+
+Press  **Register**
 	1.2. **Côté Swagger**
 
 2.  **Configuration sur FastAPI** [2]
@@ -32,10 +39,10 @@ pas possible de l'utiliser sur azure parce que blabla, il faut https
 ---
 II - **Implémenter le protocole TLS afin d'obtenir une adresse HTTPS**
 
-Prérequis:
-* a
-* b
-* c
+	Prérequis:
+	* a
+	* b
+	* c
 
 bla
 
